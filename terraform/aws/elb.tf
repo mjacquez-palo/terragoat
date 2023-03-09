@@ -28,12 +28,12 @@ resource "aws_elb" "weblb" {
   tags = merge({
     Name = "foobar-terraform-elb"
     }, {
-    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_commit           = "38c34b9d1b5401ef581d0579a548ec12eed877e7"
     git_file             = "terraform/aws/elb.tf"
-    git_last_modified_at = "2020-06-16 14:46:24"
-    git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
+    git_last_modified_at = "2023-03-09 19:35:03"
+    git_last_modified_by = "sxilenced@gmail.com"
+    git_modifiers        = "nimrodkor/sxilenced"
+    git_org              = "mjacquez-palo"
     git_repo             = "terragoat"
     yor_trace            = "b4a83ce9-9a45-43b4-b6d9-1783c282f702"
   })
