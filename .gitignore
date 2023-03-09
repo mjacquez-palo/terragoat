@@ -2,6 +2,7 @@
 **/.terraform/*
 .idea
 
+SECRETS.txt
 # .tfstate files
 *.tfstate
 *.tfstate.*
