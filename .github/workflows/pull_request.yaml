@@ -14,3 +14,15 @@ jobs:
         uses: bridgecrewio/checkov-action@master
         with:
           directory: terraform/
+
+  yor:
+    permissions:
+       contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout repo
+        with:
+          fetch-depth: 0
+      - name: Run yor action
+        uses: bridgecrewio/yor-action@main
